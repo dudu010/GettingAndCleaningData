@@ -1,0 +1,107 @@
+Coursera - Getting and Cleaning Data - Course Project - October 2014
+
+1. Introduction
+This Codebook describes a data set, the result of an R script developed as
+part of a course project from Coursera: Getting and Cleaning Data.
+
+
+2. Data Sources
+The data set was built based on the following data source:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+This material is part of a research project, "Human Activity Recognition
+Using Smartphones", developed by Jorge L. Reyes-Ortiz, Davide Anguita, 
+Alessandro Ghio, Luca Oneto, from Universite degli Studi di Genova.
+
+Follow a brief description of the mentioned research project:
+"The experiments have been carried out with a group of 30 volunteers within an
+age bracket of 19-48 years. Each person performed six activities (WALKING, 
+WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a 
+smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer
+and gyroscope, it was captured 3-axial linear acceleration and 3-axial angular
+velocity at a constant rate of 50Hz".
+
+
+3. The Data Set
+The data set is composed by 68 distict variables described as follow:
+
+"subject", an integer from 1 to 30, identifying each volunteer in
+the experiment.
+
+"activity", among the set (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,
+SITTING, STANDING, LAYING), the activity performed by the subject when the
+measures were captured.
+
+The other 66 variables represent the mean of each measure captured for each 
+subject in each activity. Actually it was considered just the variables
+regarding mean and std from the source files. Follow below the list of 
+variables where the mean was calculated. For detail information regarding
+each of these measurements, please refer to the original document of the
+experiment: http://http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+"tBodyAcc_mean_X", 
+"tBodyAcc_mean_Y", 
+"tBodyAcc_mean_Z", 
+"tBodyAcc_std_X",
+"tBodyAcc_std_Y",
+"tBodyAcc_std_Z",
+"tGravityAcc_mean_X",
+"tGravityAcc_mean_Y",
+"tGravityAcc_mean_Z",
+"tGravityAcc_std_X",
+"tGravityAcc_std_Y",
+"tGravityAcc_std_Z",
+"tBodyAccJerk_mean_X",
+"tBodyAccJerk_mean_Y",
+"tBodyAccJerk_mean_Z",
+"tBodyAccJerk_std_X",
+"tBodyAccJerk_std_Y",
+"tBodyAccJerk_std_Z",
+"tBodyGyro_mean_X",
+"tBodyGyro_mean_Y",
+"tBodyGyro_mean_Z",
+"tBodyGyro_std_X",
+"tBodyGyro_std_Y",
+"tBodyGyro_std_Z",
+"tBodyGyroJerk_mean_X",
+"tBodyGyroJerk_mean_Y",
+"tBodyGyroJerk_mean_Z",
+"tBodyGyroJerk_std_X",
+"tBodyGyroJerk_std_Y",
+"tBodyGyroJerk_std_Z",
+"tBodyAccMag_mean",
+"tBodyAccMag_std",
+"tGravityAccMag_mean",
+"tGravityAccMag_std",
+"tBodyAccJerkMag_mean",
+"tBodyAccJerkMag_std",               
+"tBodyGyroMag_mean",
+"tBodyGyroMag_std",              
+"tBodyGyroJerkMag_mean",
+"tBodyGyroJerkMag_std",               
+"fBodyAcc_mean_X",
+"fBodyAcc_mean_Y",
+"fBodyAcc_mean_Z",
+"fBodyAcc_std_X",
+"fBodyAcc_std_Y",
+"fBodyAcc_std_Z",
+"fBodyAccJerk_mean_X",
+"fBodyAccJerk_mean_Y",
+"fBodyAccJerk_mean_Z",
+"fBodyAccJerk_std_X",
+"fBodyAccJerk_std_Y",
+"fBodyAccJerk_std_Z",
+"fBodyGyro_mean_X",
+"fBodyGyro_mean_Y",
+"fBodyGyro_mean_Z",
+"fBodyGyro_std_X",
+"fBodyGyro_std_Y",
+"fBodyGyro_std_Z",             
+"fBodyAccMag_mean",
+"fBodyAccMag_std",               
+"fBodyBodyAccJerkMag_mean",
+"fBodyBodyAccJerkMag_std",
+"fBodyBodyGyroMag_mean",
+"fBodyBodyGyroMag_std",
+"fBodyBodyGyroJerkMag_mean",
+"fBodyBodyGyroJerkMag_std"
